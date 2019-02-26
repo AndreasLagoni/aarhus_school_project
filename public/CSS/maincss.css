@@ -12,11 +12,73 @@ h2 {
 }
 p {
   font-family: Georgia;
+  font-size: 18px;
 }
 
 /* -------- NAV -------- */
+.bannerNav {
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: white;
+  box-sizing: border-box;
+}
+#navLogo {
+  position: relative;
+  left: 5%;
+}
+#navText {
+  font-size: 40px;
+  text-decoration: none;
+  position: absolute;
+  right: 5%;
+  font-family: AU Passata, bold;
+  color: #003d73;
+}
 /* -------- MAINCONTENT -------- */
-
+main {
+  margin-top: 111px;
+  width: 100%;
+  height: auto;
+}
 /* -------- FIRST SECTION (ARTICLE AND FAQ) -------- */
-
+.firstSection {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #002546;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+.firstSection h1,
+h2,
+p {
+  color: white;
+  padding: 5px 5px 5px 5px;
+}
+.firstContent {
+  width: 50%;
+}
+.secondContent {
+  width: 50%;
+}
 /* -------- SECOND SECTION (MORE INFORMATION AND GOOGLE MAPS) -------- */
+.secondSection {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #002546;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+}
+.secondSection h1,
+h2,
+p {
+  color: white;
+  padding: 5px 5px 5px 5px;
+}

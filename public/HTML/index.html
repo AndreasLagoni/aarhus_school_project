@@ -10,28 +10,50 @@
   </head>
   <body>
     <nav class="bannerNav">
-      <img
-        src="../Billeder/aulogo_uk_var2_blue.png"
-        alt="Aarhus Universitet Logo"
-      />
-      <a href="#">Offentlige foredrag i naturvidenskab</a>
+      <a href="#" id="navLogo"
+        ><img
+          src="../Billeder/aulogo_uk_var2_blue.png"
+          alt="Aarhus Universitet Logo"
+      /></a>
+      <a href="#" id="navText">Offentlige foredrag i naturvidenskab</a>
     </nav>
     <main>
-      <section>
-        <article>
+      <section class="firstSection">
+        <article class="firstContent">
           <h1>Aarhus Universitet tilbyder forelæsninger rundt i landet</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
         </article>
-        <aside>
+        <aside class="secondContent">
           <h2>Ofte spurgte spørgsmål</h2>
         </aside>
       </section>
-      <section>
-        <article>
+      <section class="secondSection">
+        <article class="firstContent">
           <h1>Livestreams rundt i landet stiger!</h1>
           <h2>Se på kortet, hvor du kan finde forelæsningerne</h2>
         </article>
-        <aside></aside>
+        <aside class="secondContent">
+          <div id="googleMap" style="width:100%;height:100%;"></div>
+        </aside>
       </section>
     </main>
+
+    <script src="../JS/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBttzIOAaHq5Hr-7FJh_qtjQbyTgNMGxnw&callback=myMap"></script>
   </body>
 </html>
