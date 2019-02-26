@@ -4,7 +4,12 @@ function myMap() {
     zoom: 8
   };
   var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-  var marker1 = new google.maps.Marker({ position: myCenter });
+
+  var marker1Pos = { lat: 56.168373, lng: 10.20303 };
+  var marker1 = new google.maps.Marker({
+    position: marker1Pos,
+    title: "Aarhus Universitet"
+  });
 
   marker1.setMap(map);
 }
