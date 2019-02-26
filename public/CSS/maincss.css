@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: AU Passata, bold;
+  font-size: 28px;
+}
+h2 {
+  font-family: AU Passata, bold;
+  font-size: 25px;
+}
+p {
+  font-family: Georgia;
+}
+
+/* -------- NAV -------- */
+/* -------- MAINCONTENT -------- */
+
+/* -------- FIRST SECTION (ARTICLE AND FAQ) -------- */
+
+/* -------- SECOND SECTION (MORE INFORMATION AND GOOGLE MAPS) -------- */
