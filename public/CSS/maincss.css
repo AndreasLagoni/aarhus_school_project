@@ -25,6 +25,7 @@ p {
   flex-direction: row;
   align-items: center;
   background-color: white;
+  z-index: 10;
 }
 #navLogo {
   position: relative;
@@ -48,35 +49,59 @@ main {
 .firstSection {
   width: 80%;
   margin: 0 auto;
+  height: 450px;
   background-color: #002546;
-  height: 400px;
+  background-image: url("../Billeder/billedesectionv4.png");
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: row;
+  opacity: 1;
 }
 .firstSection h1,
 h2,
 p {
   color: white;
   padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
 }
 .firstContent {
   width: 50%;
+  padding-right: 40px;
 }
 .secondContent {
   width: 50%;
+  padding: 5px 5px;
+}
+.secondContent button {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 20px;
+  background-color: #8bad3f;
+  color: white;
+  border: 0;
+  text-align: left;
+  padding: 10px 10px;
+  cursor: pointer;
 }
 /* -------- SECOND SECTION (MORE INFORMATION AND GOOGLE MAPS) -------- */
 .secondSection {
   width: 80%;
   margin: 0 auto;
   background-color: #003d73;
-  height: 700px;
+  height: 600px;
   display: flex;
   flex-direction: row;
+}
+.secondSection article {
+  background-image: url("../Billeder/lecturev2.png");
+  background-size: cover;
+  background-position: center;
 }
 .secondSection h1,
 h2,
 p {
   color: white;
   padding: 5px 5px 5px 5px;
+  margin: 5px 5px;
 }
