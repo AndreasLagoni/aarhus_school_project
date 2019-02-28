@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Aarhus Universitet - Livestream</title>
+    <title>Offentlige foredrag - Aarhus Universitet/title</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/maincss.css" />
@@ -13,15 +13,40 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" type="image/png" href="../Billeder/favicon.ico" />
   </head>
   <body>
-    <nav class="bannerNav">
-      <a href="#" id="navLogo"
+    <header class="banner">
+      <a href="#" id="bannerLogo"
         ><img
           src="../Billeder/aulogo_uk_var2_blue.png"
           alt="Aarhus Universitet Logo"
       /></a>
-      <a href="#" id="navText">Offentlige foredrag i naturvidenskab</a>
+      <p id="bannerText">Offentlige foredrag i naturvidenskab</p>
+    </header>
+    <nav>
+      <ul>
+        <li id="programList">
+          <a href="">Program<i class="fas fa-arrow-down"></i> </a>
+          <div class="dropdown-program">
+            <a href="#">Program 1</a>
+            <a href="#">Program 2</a>
+            <a href="#">Program 3</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="">Om<i class="fas fa-arrow-down"></i></a>
+          <div class="dropdown-program">
+            <a href="#">Om 1</a>
+            <a href="#">Om 2</a>
+            <a href="#">Om 3</a>
+          </div>
+        </li>
+        <li>
+          <a href="">Kontakt<i class="fas fa-arrow-down"></i></a>
+        </li>
+      </ul>
     </nav>
     <main>
       <section class="firstSection">
@@ -72,6 +97,38 @@
         <aside class="secondContent">
           <div id="googleMap" style="width:100%;height:100%;"></div>
         </aside>
+      </section>
+      <section class="sectionLectures">
+        <h1>Se hvilke forelæsninger vi allerede har holdt:</h1>
+        <a href="#">
+          <article class="lectureArticle large">
+            <img src="../Billeder/climate_change.jpg" style="width: 100%;" />
+            <h3>Klimaændringer - Den danske vinkel</h3>
+            <p>dato: 26/2</p>
+            <div id="contentInside">
+              <h4>Se mere info...</h4>
+            </div>
+          </article></a
+        >
+        <a href="#">
+          <article class="lectureArticle small">
+            <img src="../Billeder/planet.jpg" style="width: 100%;" />
+            <h3>Liv på andre planeter</h3>
+            <p>dato: 2/4</p>
+            <div id="contentInside">
+              <h4>Se mere info...</h4>
+            </div>
+          </article></a
+        ><a href="#">
+          <article class="lectureArticle large">
+            <img src="../Billeder/whale.jpg" style="width: 100%;" />
+            <h3>Ny teknik afslører hvalernes skjulte liv</h3>
+            <p>dato: 12/3</p>
+            <div id="contentInside">
+              <h4>Se mere info...</h4>
+            </div>
+          </article></a
+        >
       </section>
     </main>
 
