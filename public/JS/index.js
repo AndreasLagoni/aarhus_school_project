@@ -54,13 +54,12 @@ function myMap() {
 function burgerCollapse() {
   var burgerMenu = document.getElementById("burgerNav");
   burgerMenu.classList.toggle("change");
-  var main = document.getElementById("mainWrapper");
-  var burgerMenu = document.getElementById("mobile-Menu");
-  if (burgerMenu.style.display === "block") {
-    burgerMenu.style.display = "none";
-    main.style.margin == "0px;";
+  var mobileMenu = document.getElementById("mobile-Menu");
+  if (mobileMenu.style.display === "block") {
+    mobileMenu.style.display = "none";
+    document.getElementById("mainWrapper").style.marginTop = "200px";
   } else {
-    burgerMenu.style.display = "block";
-    main.style.margin == "200px;";
+    mobileMenu.style.display = "block";
+    document.getElementById("mainWrapper").style.marginTop = "10px";
   }
 }

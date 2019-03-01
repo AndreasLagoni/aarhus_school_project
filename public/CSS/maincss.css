@@ -40,7 +40,7 @@ span {
 #bannerLogo {
   padding: 14px 16px;
   position: relative;
-  left: 10%;
+  left: 5%;
 }
 #bannerLogo img {
   width: 200px;
@@ -49,14 +49,14 @@ span {
   font-size: 28px;
   text-decoration: none;
   position: absolute;
-  right: 10%;
+  right: 5%;
   font-family: AU Passata, bold;
   color: #003d73;
 }
 /* -------- NAV -------- */
 nav {
   border-top: 0.5px solid gray;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 75px;
 }
@@ -121,7 +121,7 @@ nav ul .dropdown-program a:hover {
 .burgerNav {
   display: none;
   position: absolute;
-  right: 11%;
+  right: 6%;
   top: 100px;
   cursor: pointer;
 }
@@ -148,7 +148,7 @@ div .burgerMenuLine1,
   transform: rotate(45deg) translate(-8px, -8px);
 }
 #mobile-Menu {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   height: auto;
   background-color: #002546;
@@ -175,7 +175,7 @@ main {
 }
 /* -------- FIRST SECTION (ARTICLE AND FAQ) -------- */
 .firstSection {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 450px;
   background-color: #002546;
@@ -223,7 +223,7 @@ p {
 }
 /* -------- SECOND SECTION (MORE INFORMATION AND GOOGLE MAPS) -------- */
 .secondSection {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   background-color: #003d73;
   height: 600px;
@@ -244,7 +244,7 @@ p {
 }
 /* -------- LECTURES -------- */
 .sectionLectures {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: auto;
   background-color: #003d73;
@@ -308,7 +308,7 @@ p {
 }
 /* -------- FORELÆSNING ARTIKEL STYLE -------- */
 .sectionArticle {
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   position: relative;
