@@ -24,9 +24,9 @@
       /></a>
       <p id="bannerText">Offentlige foredrag i naturvidenskab</p>
     </header>
-    <nav>
+    <nav id="mainNav">
       <ul>
-        <li id="programList">
+        <li>
           <a href="">Program<i class="fas fa-arrow-down"></i> </a>
           <div class="dropdown-program">
             <a href="#">Program 1</a>
@@ -40,7 +40,6 @@
           <div class="dropdown-program">
             <a href="#">Om 1</a>
             <a href="#">Om 2</a>
-            <a href="#">Om 3</a>
           </div>
         </li>
         <li>
@@ -48,7 +47,7 @@
         </li>
       </ul>
     </nav>
-    <div class="burgerNav" onclick="burgerCollapse(this)">
+    <div class="burgerNav" id="burgerNav" onclick="burgerCollapse()">
       <div class="burgerMenuLine1"></div>
       <div class="burgerMenuLine2"></div>
       <div class="burgerMenuLine3"></div>
@@ -56,27 +55,29 @@
     <div class="mobile-Menu" id="mobile-Menu">
       <ul>
         <li>
-          <a href="">Menu 1</a>
+          <a href="">Program 1</a>
         </li>
         <li>
-          <a href="">Menu 2</a>
+          <a href="">Program 2</a>
         </li>
-        <li><a href="">Menu 3</a></li>
-        <li><a href="">Menu 4</a></li>
+        <li><a href="">Program 3</a></li>
+        <li><a href="">Om 1</a></li>
+        <li><a href="">Om 2</a></li>
+        <li><a href="">Kontakt</a></li>
       </ul>
     </div>
-    <main>
+    <main id="mainWrapper">
       <section class="firstSection">
         <article class="firstContent">
           <h1>Aarhus Universitet tilbyder forelæsninger rundt i landet</h1>
           <p>
             Som de eneste i Danmark tilbyder Aarhus universitet livestreams
             rundt i landet! Engagerede forelæsere holder foredrag i alle grene
-            indenfor naturvidenskaben, og du kan komme med på første række! Din
-            eget faglige niveau eller viden i emnet er ikke vigtigt, men din
+            indenfor naturvidenskaben, og du kan komme med på første række!<br /><br />
+            Dit eget faglige niveau eller viden i emnet er ikke vigtigt, men din
             interesse og lysten til ny viden er i fokus. De fleste forelæsninger
             er gratis og kan deltages af alle. Aarhus Universitet byder alle
-            velkommen til en verden fuld af læring og ny viden.<br />
+            velkommen til en verden fuld af læring og ny viden.<br /><br />
             De steder rundt i landet, hvor der bliver holdt livestreams af
             forelæsningerne kan være alt fra små lokaler til biblioteker og alt
             imellem.
@@ -95,7 +96,7 @@
         </aside>
       </section>
       <section class="secondSection">
-        <article class="firstContent">
+        <article class="firstContent" id="infoSmall">
           <h1>Livestreams rundt i landet stiger!</h1>
           <p>
             Tal fra rundt i landet kan vi konkluderer at flere og flere deltager
@@ -104,10 +105,10 @@
             endnu en stigning i 2018. Flere og flere tager initiativet til sig
             og tager ud til de fysiske lokationer, som tilbyder livestreams.
           </p>
-          <h2>Se på kortet, hvor du kan finde forelæsningerne</h2>
+          <h2>Se på kortet, hvor der bliver vist livestreams.</h2>
           <p></p>
         </article>
-        <aside class="secondContent">
+        <aside class="secondContent" id="mapLarge">
           <div id="googleMap" style="width:100%;height:100%;"></div>
         </aside>
       </section>

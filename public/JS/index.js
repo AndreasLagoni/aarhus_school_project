@@ -50,12 +50,17 @@ function myMap() {
     infowindowAssens.open(map, marker2);
   });
 }
-function burgerCollapse(x) {
-  x.classList.toggle("change");
-  var x = document.getElementById("mobile-Menu");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+// BURGER MENU COLLAPSE AND CHANGE MAINWRAPPER TOP MARGIN //
+function burgerCollapse() {
+  var burgerMenu = document.getElementById("burgerNav");
+  burgerMenu.classList.toggle("change");
+  var main = document.getElementById("mainWrapper");
+  var burgerMenu = document.getElementById("mobile-Menu");
+  if (burgerMenu.style.display === "block") {
+    burgerMenu.style.display = "none";
+    main.style.margin == "0px;";
   } else {
-    x.style.display = "block";
+    burgerMenu.style.display = "block";
+    main.style.margin == "200px;";
   }
 }
