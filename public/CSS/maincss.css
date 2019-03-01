@@ -254,7 +254,24 @@ p {
   width: 300px;
   height: auto;
 }
+/* -------- FORELÆSNING ARTIKEL STYLE -------- */
+.sectionArticle {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #003d73;
+}
+#articleBG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 15px 16px;
+  background-color: white;
+  opacity: 0.1;
+}
 /* -------- SCALING -------- */
+
 @media screen and (max-width: 1400px) {
   #bannerText {
     font-size: 25px;
