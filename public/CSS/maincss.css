@@ -117,6 +117,8 @@ nav ul .dropdown-program a {
 nav ul .dropdown-program a:hover {
   background-color: rgb(212, 212, 212);
 }
+/* -------- BURGER MENU NAV -------- */
+nav .burgerMenuLine
 /* -------- MAINCONTENT -------- */
 main {
   width: 100%;
