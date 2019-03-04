@@ -257,7 +257,7 @@ p {
   text-decoration: none;
   color: white;
 }
-.sectionLectures h1 {
+.sectionLectures h2 {
   width: 100%;
   margin-left: 5px;
 }
@@ -327,6 +327,7 @@ p {
   position: absolute;
   width: 100%;
   background-color: rgb(49, 49, 49);
+  color: white;
 }
 .lectureWrapper {
   color: white;
