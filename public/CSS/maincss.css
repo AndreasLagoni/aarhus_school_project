@@ -327,6 +327,7 @@ p {
   position: absolute;
   width: 100%;
   background-color: rgb(49, 49, 49);
+  color: white;
 }
 .lectureWrapper {
   color: white;
