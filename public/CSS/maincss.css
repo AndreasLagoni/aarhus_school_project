@@ -365,6 +365,18 @@ span {
   width: calc(80% - 32px);
   padding: 15px 16px;
 }
+/* -------- 404 ERROR PAGE-------- */
+.error404 {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #003d73;
+  color: white;
+  height: 400px;
+  text-align: center;
+}
+.error404 h1 {
+  font-size: 80px;
+}
 /* -------- SCALING -------- */
 
 @media screen and (max-width: 1400px) {
