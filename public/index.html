@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="no-js" lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Offentlige foredrag - Aarhus Universitet</title>
+    <meta
+      name="description"
+      content="Aarhus Universitet inviterer alle på en rejse gennem naturvidenskaben ved hjælp af livestreams rundt i landet. Livestreams er gratis for alle at deltage i."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/maincss.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/png" href="Billeder/favicon.ico" />
+  </head>
+  <body>
+    <header class="banner">
+      <a href="#" id="bannerLogo"
+        ><img
+          src="Billeder/aulogo_uk_var2_blue.png"
+          alt="Aarhus Universitet Logo"
+      /></a>
+      <p id="bannerText">Offentlige foredrag i naturvidenskab</p>
+    </header>
+    <nav id="mainNav">
+      <ul>
+        <li>
+          <a href="">Program<i class="fas fa-arrow-down"></i> </a>
+          <div class="dropdown-program">
+            <a href="HTML/forelæsning-klima.html">Underside 1</a>
+            <a href="HTML/forelæsning-planeter.html">Underside 2</a>
+            <a href="HTML/forelæsning-hvaler.html">Underside 3</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="">Om<i class="fas fa-arrow-down"></i></a>
+          <div class="dropdown-program">
+            <a href="#">Om 1</a>
+            <a href="#">Om 2</a>
+          </div>
+        </li>
+        <li>
+          <a href="">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="burgerNav" id="burgerNav" onclick="burgerCollapse()">
+      <div class="burgerMenuLine1"></div>
+      <div class="burgerMenuLine2"></div>
+      <div class="burgerMenuLine3"></div>
+    </div>
+    <div class="mobile-Menu" id="mobile-Menu">
+      <ul>
+        <li>
+          <a href="HTML/forelæsning-klima.html">Underside 1</a>
+        </li>
+        <li>
+          <a href="HTML/forelæsning-planeter.html">Underside 2</a>
+        </li>
+        <li><a href="HTML/forelæsning-hvaler.html">Underside 3</a></li>
+        <li><a href="">Om 1</a></li>
+        <li><a href="">Om 2</a></li>
+        <li><a href="">Kontakt</a></li>
+      </ul>
+    </div>
+    <main id="mainWrapper">
+      <section class="firstSection">
+        <article class="firstContent">
+          <h1>Aarhus Universitet tilbyder forelæsninger rundt i landet</h1>
+          <p>
+            Som de eneste i Danmark tilbyder Aarhus universitet livestreams
+            rundt i landet! Engagerede forelæsere holder foredrag i alle grene
+            indenfor naturvidenskaben, og du kan komme med på første række!<br /><br />
+            Dit eget faglige niveau eller viden i emnet er ikke vigtigt, men din
+            interesse og lysten til ny viden er i fokus. De fleste forelæsninger
+            er gratis og kan deltages af alle. Aarhus Universitet byder alle
+            velkommen til en verden fuld af læring og ny viden.<br /><br />
+            De steder rundt i landet, hvor der bliver holdt livestreams af
+            forelæsningerne kan være alt fra små lokaler til biblioteker og alt
+            imellem.
+          </p>
+        </article>
+        <aside class="secondContent">
+          <h2>Mangler du svar på noget?</h2>
+          <button>Hvem underviser?<i class="fas fa-arrow-right"></i></button>
+          <button>
+            Hvad koster forelæsningerne?<i class="fas fa-arrow-right"></i>
+          </button>
+          <button>
+            Hvor højt er niveauet?<i class="fas fa-arrow-right"></i>
+          </button>
+          <button>Se hele programmet<i class="fas fa-arrow-right"></i></button>
+        </aside>
+      </section>
+      <section class="secondSection">
+        <article class="firstContent" id="infoSmall">
+          <h2>Livestreams rundt i landet stiger!</h2>
+          <p>
+            Tal fra rundt i landet kan vi konkluderer at flere og flere deltager
+            i forelæsningerne rundt i landet. I 2016 blev der livestreamet 75
+            gange rundt i landet og i 2017 steg det tal til 130. Der forventes
+            endnu en stigning i 2018. Flere og flere tager initiativet til sig
+            og tager ud til de fysiske lokationer, som tilbyder livestreams.
+          </p>
+          <h2>Se på kortet, hvor der bliver vist livestreams.</h2>
+          <p></p>
+        </article>
+        <aside class="secondContent" id="mapLarge">
+          <div id="googleMap" style="width:100%;height:100%;"></div>
+        </aside>
+      </section>
+      <section class="sectionLectures">
+        <h2>Se hvilke forelæsninger vi allerede har holdt:</h2>
+        <a href="HTML/forelæsning-klima.html">
+          <article class="lectureArticle large">
+            <img
+              src="Billeder/climate_change_low_quality.jpg"
+              alt="Forelæsningen tager udgangspunkt i klima forandringer med fokus på Danmark. Det er et gratis foredrag, hvor naturvidenskab er i fokus"
+              style="width: 100%;"
+            />
+            <h3>Klimaændringer - Den danske vinkel</h3>
+            <p>dato: 26/2</p>
+            <div id="contentInside">
+              <h4>Se mere info...</h4>
+            </div>
+          </article></a
+        >
+        <a href="HTML/forelæsning-planeter.html">
+          <article class="lectureArticle small">
+            <img
+              src="Billeder/planet.jpg"
+              alt="Forelæsningen tager udgangspunkt i planeter. Det er et gratis foredrag, hvor naturvidenskab er i fokus"
+              style="width: 100%;"
+            />
+            <h3>Liv på andre planeter</h3>
+            <p>dato: 2/4</p>
+            <div id="contentInside">
+              <h4>Se mere info...</h4>
+            </div>
+          </article></a
+        ><a href="HTML/forelæsning-hvaler.html">
+          <article class="lectureArticle large">
+            <img
+              src="Billeder/whale.jpg"
+              alt="Forelæsningen tager udgangspunkt i hvalernes skjulte liv samt banebrydende ny teknologi. Det er et gratis foredrag, hvor naturvidenskab er i fokus"
+              style="width: 100%;"
+            />
+            <h3>Ny teknik afslører hvalernes skjulte liv</h3>
+            <p>dato: 12/3</p>
+            <div id="contentInside">
+              <h4>Se mere info...</h4>
+            </div>
+          </article></a
+        >
+      </section>
+      <section class="videoSection">
+        <h2>Se vores trailer video!</h2>
+        <article class="video">
+          <video width="50%" height="50%" controls>
+            <source src="Video/trailer.mp4" type="video/mp4" />
+          </video>
+        </article>
+      </section>
+    </main>
+
+    <script src="JS/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBttzIOAaHq5Hr-7FJh_qtjQbyTgNMGxnw&callback=myMap"></script>
+  </body>
+</html>
