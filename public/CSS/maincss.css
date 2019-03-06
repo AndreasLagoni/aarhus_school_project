@@ -281,11 +281,11 @@ p {
 .lectureArticle:hover > p {
   opacity: 0.5;
 }
-.lectureArticle:hover > #contentInside {
+.lectureArticle:hover > .contentInside {
   opacity: 1;
   visibility: visible;
 }
-#contentInside {
+.contentInside {
   position: absolute;
   padding: 16px 14px;
   bottom: 0;
